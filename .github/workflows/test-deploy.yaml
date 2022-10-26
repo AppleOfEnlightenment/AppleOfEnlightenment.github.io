@@ -28,12 +28,8 @@ jobs:
         if: runner.os == 'Linux'
         run: |
           tar \
-            --dereference --hard-dereference \
-            --directory "./build" \
             -czvf "$RUNNER_TEMP/github-pages.tar.gz" \
-            --exclude=.git \
-            --exclude=.github \
-            .
+            ./build
       - name: Upload artifact
         uses: actions/upload-artifact@main
         with:
