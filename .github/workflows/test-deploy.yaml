@@ -28,6 +28,7 @@ jobs:
         if: runner.os == 'Linux'
         run: |
           tar \
+            --dereference --hard-dereference \
             -czvf "$RUNNER_TEMP/github-pages.tar.gz" \
             ./build
       - name: Upload artifact
