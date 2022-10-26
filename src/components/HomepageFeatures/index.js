@@ -14,22 +14,14 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Crocs',
+    Svg: require('@site/static/img/crocnatomy.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Crocs sell foam clogs at a low price point because they want to bring consumers’ attention to their quality.
+        Consumers want to spend less on shoes, especially when it comes to fashion items such as athletic footwear.
+        The company has also found success through social media marketing by posting pictures of its employees wearing its shoes.
+        Crocs share a fun, relatable message that encourages customers to join them in their journey toward being happier.
       </>
     ),
   },
