@@ -10,7 +10,7 @@ on:
 jobs:
   deploy:
     name: Deploy to GitHub Pages
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     permissions:
       contents: write
     concurrency:
@@ -24,6 +24,7 @@ jobs:
         with:
           node-version: 18
           cache: yarn
+          cache-dependency-path: Crocs-Docs/yarn
 
       - name: Get yarn cache
         id: yarn-cache
